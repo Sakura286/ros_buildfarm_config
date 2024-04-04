@@ -60,7 +60,7 @@ skip_rosdep_keys:
 - rosidl_typesupport_fastrtps_c
 targets:
   ubuntu:
-    jammy:
+    noble:
       amd64:
 type: ci-build
 version: 1
