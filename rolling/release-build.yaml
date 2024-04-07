@@ -21,6 +21,7 @@ package_dependency_behavior:
 sync:
   package_count: 499
   packages: [desktop]
+target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   debian:
     unstable:
