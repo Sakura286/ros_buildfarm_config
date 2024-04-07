@@ -36,14 +36,12 @@ distributions:
     source_builds:
       default: kinetic/source-build.yaml
   rolling:
-    doc_builds:
-      default: rolling/doc-build.yaml
     notification_emails:
     - sakura286@outlook.com
     release_builds:
       default: rolling/release-build.yaml
-    source_builds:
-      default: rolling/source-build.yaml
+#    source_builds:
+#      default: rolling/source-build.yaml
 jenkins_url: http://54.183.26.131:8080
 notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
