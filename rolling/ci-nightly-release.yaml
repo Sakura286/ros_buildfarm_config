@@ -1,0 +1,71 @@
+%YAML 1.1
+# ROS buildfarm ci-build file
+---
+build_environment_variables:
+  CONNEXTDDS_DIR: '/opt/rti.com/rti_connext_dds-6.0.1'
+  ROS_PYTHON_VERSION: '3'
+  RTI_NC_LICENSE_ACCEPTED: 'yes'
+build_tool: colcon
+build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_MULTI_RMW_TESTS=1 --no-warn-unused-cli'
+build_tool_test_args: '--retest-until-pass 2 --ctest-args -LE xfail --pytest-args -m "not xfail"'
+jenkins_job_label: ci-agent
+jenkins_job_priority: 50
+jenkins_job_schedule: 15 23 * * *
+jenkins_job_timeout: 300
+jenkins_job_weight: 4
+package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp'
+repos_files:
+- https://github.com/ros2/ros2/raw/rolling/ros2.repos
+repositories:
+  keys:
+  - |
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1
+
+    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
+    5yZ//TcvprwUNd0XwdNSJt2fcwWkxRpmPiR0hw==
+    =dYsS
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://10.9.127.200/public/
+targets:
+  debian:
+    unstable:
+      riscv64:
+type: ci-build
+version: 1

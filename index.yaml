@@ -38,6 +38,8 @@ distributions:
   rolling:
     notification_emails:
     - sakura286@outlook.com
+    ci_builds:
+      nightly-release: rolling/ci-nightly-release.yaml
     release_builds:
       default: rolling/release-build.yaml
 #    source_builds:
