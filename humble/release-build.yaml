@@ -1,21 +1,25 @@
 %YAML 1.1
-# ROS buildfarm ci-build file
+# ROS buildfarm release-build file
 ---
+abi_incompatibility_assumed: true
+
 build_environment_variables:
-  CONNEXTDDS_DIR: '/opt/rti.com/rti_connext_dds-6.0.1'
-  ROS_PYTHON_VERSION: '3'
   RTI_NC_LICENSE_ACCEPTED: 'yes'
-build_tool: colcon
-build_tool_args: '--cmake-args -DCMAKE_BUILD_TYPE=Release -DSKIP_MULTI_RMW_TESTS=1 --no-warn-unused-cli'
-build_tool_test_args: '--retest-until-pass 2 --ctest-args -LE xfail --pytest-args -m "not xfail"'
-jenkins_job_label: ci-agent
-jenkins_job_priority: 50
-jenkins_job_schedule: 15 23 * * *
-jenkins_job_timeout: 300
-jenkins_job_weight: 4
-package_selection_args: '--packages-ignore rmw_fastrtps_dynamic_cpp'
-repos_files:
-- https://github.com/ros2/ros2/raw/rolling/ros2.repos
+
+jenkins_binary_job_priority: 80
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 70
+jenkins_source_job_timeout: 30
+notifications:
+  emails:
+  - sakura286@outlook.com
+  maintainers: true
+package_dependency_behavior:
+  include_test_dependencies: false
+  run_package_tests: false
+sync:
+  package_count: 499
+  packages: [desktop]
 repositories:
   keys:
   - |
@@ -62,10 +66,12 @@ repositories:
     =dYsS
     -----BEGIN PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://10.9.127.200/public/
+  - http://192.168.232.151/public/
+target_repository: http://repo.ros2.org/ubuntu/building
 targets:
-  debian:
-    unstable:
-      riscv64:
-type: ci-build
-version: 1
+  ubuntu:
+    jammy:
+      amd64:
+type: release-build
+upload_credential_id: jenkins-agent
+version: 2
