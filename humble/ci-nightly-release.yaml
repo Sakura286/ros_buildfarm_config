@@ -51,6 +51,7 @@ repositories:
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
   - http://repo.ros2.org/ubuntu/building
+target_repository: http://10.9.127.200/public/
 targets:
   ubuntu:
     jammy:
