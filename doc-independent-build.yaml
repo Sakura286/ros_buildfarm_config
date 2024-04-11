@@ -12,9 +12,9 @@ doc_repositories:
 - https://github.com/vcstools/vcstools.git
 jenkins_job_priority: 90
 jenkins_job_timeout: 30
-notifications:
-  emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+#notifications:
+#  emails:
+#  - ros-buildfarm-testfarm@googlegroups.com
 targets:
   ubuntu:
     trusty:

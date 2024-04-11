@@ -10,10 +10,10 @@ jenkins_binary_job_priority: 80
 jenkins_binary_job_timeout: 120
 jenkins_source_job_priority: 70
 jenkins_source_job_timeout: 30
-notifications:
-  emails:
-  - sakura286@outlook.com
-  maintainers: true
+#notifications:
+#  emails:
+#  - sakura286@outlook.com
+#  maintainers: true
 package_dependency_behavior:
   include_test_dependencies: false
   run_package_tests: false

@@ -36,8 +36,8 @@ distributions:
   #   source_builds:
   #     default: kinetic/source-build.yaml
   humble:
-    notification_emails:
-    - sakura286@outlook.com
+#    notification_emails:
+#    - sakura286@outlook.com
     ci_builds:
       nightly-release: humble/ci-nightly-release.yaml
     release_builds:
@@ -45,8 +45,8 @@ distributions:
 #    source_builds:
 #      default: humble/source-build.yaml
 jenkins_url: http://192.168.232.151:8080
-notification_emails:
-- sakura286@outlook.com
+#notification_emails:
+#- sakura286@outlook.com
 prerequisites:
   debian_repositories:
   - http://repo.ros2.org/ubuntu/building

@@ -12,8 +12,8 @@ jenkins_pull_request_job_priority: 40
 notifications:
   committers: true
   compiler_warnings: true
-  emails:
-  - sakura286@outlook.com
+#  emails:
+#  - sakura286@outlook.com
   maintainers: true
 repository_blacklist:
 - ros_workspace
