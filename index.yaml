@@ -38,8 +38,8 @@ distributions:
   humble:
 #    notification_emails:
 #    - sakura286@outlook.com
-    ci_builds:
-      nightly-release: humble/ci-nightly-release.yaml
+    # ci_builds:
+    #   nightly-release: humble/ci-nightly-release.yaml
     release_builds:
       default: humble/release-build.yaml
 #    source_builds:
@@ -84,6 +84,7 @@ prerequisites:
     -----END PGP PUBLIC KEY BLOCK-----
 
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
+# see https://github.com/Sakura286/ros_buildfarm/blob/360bf6e9834203d46977743ebe7acfb77322efec/doc/jobs/miscellaneous_jobs.rst#status-pages
 status_page_repositories:
   default:
   - http://192.168.31.48/ubuntu/building/
