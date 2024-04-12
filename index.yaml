@@ -44,7 +44,7 @@ distributions:
       default: humble/release-build.yaml
 #    source_builds:
 #      default: humble/source-build.yaml
-jenkins_url: http://192.168.232.151:8080
+jenkins_url: http://192.168.31.98:8080
 #notification_emails:
 #- sakura286@outlook.com
 prerequisites:
@@ -86,6 +86,6 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://192.168.232.151/public/
+  - http://192.168.31.98/public/
 type: buildfarm
 version: 1
