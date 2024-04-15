@@ -17,6 +17,89 @@ notifications:
   maintainers: true
 repository_blacklist:
 - ros_workspace
+repositories:
+  keys:
+  - |
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+    Version: GnuPG v1
+
+    mQINBFzvJpYBEADY8l1YvO7iYW5gUESyzsTGnMvVUmlV3XarBaJz9bGRmgPXh7jc
+    VFrQhE0L/HV7LOfoLI9H2GWYyHBqN5ERBlcA8XxG3ZvX7t9nAZPQT2Xxe3GT3tro
+    u5oCR+SyHN9xPnUwDuqUSvJ2eqMYb9B/Hph3OmtjG30jSNq9kOF5bBTk1hOTGPH4
+    K/AY0jzT6OpHfXU6ytlFsI47ZKsnTUhipGsKucQ1CXlyirndZ3V3k70YaooZ55rG
+    aIoAWlx2H0J7sAHmqS29N9jV9mo135d+d+TdLBXI0PXtiHzE9IPaX+ctdSUrPnp+
+    TwR99lxglpIG6hLuvOMAaxiqFBB/Jf3XJ8OBakfS6nHrWH2WqQxRbiITl0irkQoz
+    pwNEF2Bv0+Jvs1UFEdVGz5a8xexQHst/RmKrtHLct3iOCvBNqoAQRbvWvBhPjO/p
+    V5cYeUljZ5wpHyFkaEViClaVWqa6PIsyLqmyjsruPCWlURLsQoQxABcL8bwxX7UT
+    hM6CtH6tGlYZ85RIzRifIm2oudzV5l+8oRgFr9yVcwyOFT6JCioqkwldW52P1pk/
+    /SnuexC6LYqqDuHUs5NnokzzpfS6QaWfTY5P5tz4KHJfsjDIktly3mKVfY0fSPVV
+    okdGpcUzvz2hq1fqjxB6MlB/1vtk0bImfcsoxBmF7H+4E9ZN1sX/tSb0KQARAQAB
+    tCZPcGVuIFJvYm90aWNzIDxpbmZvQG9zcmZvdW5kYXRpb24ub3JnPokCVAQTAQgA
+    PgIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBMHPbjHmut6IaLFytPQu1vur
+    F8ZUBQJgsdhRBQkLTMW7AAoJEPQu1vurF8ZUTMwP/3f7EkOPIFjUdRmpNJ2db4iB
+    RQu5b2SJRG+KIdbvQBzKUBMV6/RUhEDPjhXZI3zDevzBewvAMKkqs2Q1cWo9WV7Z
+    PyTkvSyey/Tjn+PozcdvzkvrEjDMftIk8E1WzLGq7vnPLZ1q/b6Vq4H373Z+EDWa
+    DaDwW72CbCBLWAVtqff80CwlI2x8fYHKr3VBUnwcXNHR4+nRABfAWnaU4k+oTshC
+    Qucsd8vitNfsSXrKuKyz91IRHRPnJjx8UvGU4tRGfrHkw1505EZvgP02vXeRyWBR
+    fKiL1vGy4tCSRDdZO3ms2J2m08VPv65HsHaWYMnO+rNJmMZj9d9JdL/9GRf5F6U0
+    quoIFL39BhUEvBynuqlrqistnyOhw8W/IQy/ymNzBMcMz6rcMjMwhkgm/LNXoSD1
+    1OrJu4ktQwRhwvGVarnB8ihwjsTxZFylaLmFSfaA+OAlOqCLS1OkIVMzjW+Ul6A6
+    qjiCEUOsnlf4CGlhzNMZOx3low6ixzEqKOcfECpeIj80a2fBDmWkcAAjlHu6VBhA
+    TUDG9e2xKLzV2Z/DLYsb3+n9QW7KO0yZKfiuUo6AYboAioQKn5jh3iRvjGh2Ujpo
+    22G+oae3PcCc7G+z12j6xIY709FQuA49dA2YpzMda0/OX4LP56STEveDRrO+CnV6
+    WE+F5FaIKwb72PL4rLi4
+    =i0tj
+    -----END PGP PUBLIC KEY BLOCK-----
+  - |
+    -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+    mQGNBGYYf9gBDADOvOaFfHIoFfoEksWlCTNMPzHklKbVuN6IyABuh43X9sLRpoyT
+    IyngPZYKAtJgtfLf1CEps+fcziTv2IbKZUXgau27E1LpoutKv5wWu9ABBV9iMO8p
+    sAs6d8nyls1y8q6vyBVkw9iz2QgifyGIdr4ngOscPPj2Fs7QsKsEF1Vu/AAJVYz/
+    pWZi0czKFkN4v9tRKLJkG65+IgXiksLKF3DW7SbpiCuK5Srb3766OtzTN0bqq9bI
+    bnIR2erUyAl84k+8kpIdGhTRZyViaXTYBNAQ23wzTyWPnBDMjR6ejqcjAd+35tuT
+    NObCQzCtARHwmZ/sq2s5OrlvsP062LX07MLbgX3RnmChkPy8s0ObInGt4PUAKvNO
+    GKVenbDJ1FZmwVDxZbgGSqGCnfNpWBe5PBz3+BXycbmeMOvr+N7hPyJoePoNylL3
+    vfNqVeAUuCbWMrPYtb85U2baMD/l+35cEFEhg78brBlUGRbQyFkPcpQnqza3jgCM
+    JfYuRxQY5VoIMv8AEQEAAbQoU2FrdXJhMjg2IChub25lKSA8c2FrdXJhMjg2QG91
+    dGxvb2suY29tPokBzgQTAQoAOBYhBLk/lfwKwmZmMx4tfQijoBSczfxVBQJmGH/Y
+    AhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEAijoBSczfxVSvoMAKza23Af
+    GgFCIRiCLn/9tMEL6pUgC02diweQU0DGNmTlMNDmLpZ1WCFCSGbus1ALzErGZT2z
+    TEjPdXCPLPd33mGvHBL1g/N4U+t87HHDqZF8IhovplzxiTjuO09WhMjFWDILZh6K
+    FmfTPfv4sW1lJ02JLvEhq8ktbN/RVvOYKwIjDXEiMPVbVVr2BTzccyRCgSDmhsus
+    ri/3pjQ+SURj0w/25k6eCLP8u0ti70fKQgSuw8CUizYNaN9/gR7fWkw45pmXfRT6
+    bebp2tPcs32nU1XRkoKWbnA4sW4ARDnaruW1kB0/kgeGsn0TGEeLd3Ce580qkFrF
+    3TXnyUWcDx+D4/R+9zkfw/xBXjADC7jx01FhbF9+4Jop5i2FtyomZeN454ktR4AI
+    NzN0MuVf863IB99dIyqLTdMHO23UgjiEckOl1hDcv3YmM/MOC1lJzXFUQZFEJ7F3
+    ZZNAEG5rMEttD9ILtbpTHZKrEzBAwAeTigsZWvidgf0c+WncOVaQ69zRzrkBjQRm
+    GH/YAQwAvV8/qpQyrPcBDpfg+VO0/9W/WkfCsrONnbJyOhyRK+AAjT4+Nt/OTu0g
+    V9j1jRmMhPCZCD5x8S7DCJd8jvkh/a3vT9CqAU/BqPQFtNKaJ4hOsXJREkPkYWaA
+    L6IF64SsL2GvOg+U++NllANpAv4lUteOIicA7O6M9AVg144ROFqSbo1dqDgkyd1J
+    5FvyWV0tmZ2S1z/6U0CzGJlOnB2zxPGiglI+kWERhUxZ3bwEIe2XkVwE2JbYl1Xh
+    iDr4nHtRWdqfb/G6xiQConmNhM5WvWYfNrs9iG4ALt1md96fviguKmfLUrnGdZLR
+    g4cDCa+qcXKcxRHO5KR4auLJmnZTbNKP/xeJGPTyn5KPX9aV95FsMeCCE13/TQW4
+    +oFt5qekZhm2TgqNFLd8/x5iLfdXlye6HtJ9TmaWnspxJaGICehwTsoXFzZLaX/P
+    nn7tfhh7tLeDm2BEs0JV6AabVdZ5x/hQkjzLDSKEZOi5xWHbrolfN/iEjNDtzTkb
+    hnlXqxUnABEBAAGJAbYEGAEKACAWIQS5P5X8CsJmZjMeLX0Io6AUnM38VQUCZhh/
+    2AIbDAAKCRAIo6AUnM38VTaHDADOjs9MlbpbasepaQIXADJH9FG5cDJdhQ9NUqQ+
+    w6tUOUs+zsOOomt+26TlJdGZfc92ur7pabGhypdpwZzvwSaDwIOE6GyGlQSF72cv
+    unmD3QAt9bc6FJkMEIT5v4VhBAYl9ge4qSGlLCMQbRgc5CSgbOLPHpuvvve4NyXi
+    SO5pgnp4R9T4Mhe9kegPz6fGGs7xgyCrXz23iO3qTpXOISvOLnEqokRV/wVaR7lY
+    jm0IVXbtkfUhTiFXHKLrDfOV8HByLU/YPO63IWVPFomcQzmoFMrx9fPiqUZGqZIY
+    vVu8TfN/G98qa5E702t8W+Odw3RRKzuODfSa3MSgKpqtS8WLEa+gsro+bz0zq/d3
+    ZarbS8xLLtA543euy8waH+jy6aw/PCsOr9Ncv7Xp7lXBB1OQmroKDZs4xZJCxYVo
+    HYfJ4ZfakXG8bKDg7icYjUQu7Ua+4ZBKjN3r/6BxfDQIxBoxBiCtB8QXRxA/+TZO
+    qdzcC85gZERtt6D/mq7qISydOVI=
+    =w/YS
+    -----END PGP PUBLIC KEY BLOCK-----
+  urls:
+  - http://repo.ros2.org/ubuntu/building
+  - http://192.168.31.48/ubuntu/building/
+target_repository: http://192.168.31.48/ubuntu/building/
+targets:
+  ubuntu:
+    jammy:
+      amd64:
 targets:
   debian:
     unstable:
