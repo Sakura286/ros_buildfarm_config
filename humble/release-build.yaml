@@ -99,7 +99,7 @@ repositories:
   - http://repos.ros.org/repos/ros_bootstrap/
   - http://192.168.31.48/ubuntu/building/
 target_repository: http://192.168.31.48/ubuntu/building/
-target_queue: /var/repos/building/queue
+target_queue: /var/repos/ubuntu/building/queue
 targets:
   ubuntu:
     jammy:
