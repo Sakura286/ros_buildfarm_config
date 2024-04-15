@@ -95,7 +95,7 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/building
   - http://192.168.31.48/ubuntu/building/
-target_repository: http://192.168.31.48/ubuntu/building/
+target_queue: /var/repos/building/queue
 targets:
   ubuntu:
     jammy:
